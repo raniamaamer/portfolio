@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import spam from "../../Assets/Projects/spam.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import courses from "../../Assets/Projects/courses.png";
 import scraping from "../../Assets/Projects/scraping.png";
 import project from "../../Assets/Projects/project.png";
 import mood from "../../Assets/Projects/mood.png";
@@ -77,13 +77,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={courses}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Courses App"
+              description="Web application for managing educational courses, enabling users to add and organize courses 
+              through a simple, intuitive, and user-friendly interface."
+              ghLink="https://github.com/raniamaamer/CoursesApp"
+              demoLink="https://courses-app-web.vercel.app/courses-list"
             />
           </Col>
         </Row>
