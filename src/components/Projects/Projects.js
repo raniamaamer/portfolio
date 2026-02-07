@@ -71,7 +71,7 @@ function Projects() {
               title="Project Manager"
               description="Development of a web-based project management application allowing users to create, track, and delete projects and their tasks, with real-time data storage on Firebase."
               ghLink="https://github.com/raniamaamer/project-manager-app-with-react"
-              demoLink="https://project-manager-app-with-react.vercel.app/"
+              demoLink="https://gestion-projets-app.vercel.app/"
             />
           </Col>
 
