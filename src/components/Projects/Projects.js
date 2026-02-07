@@ -50,7 +50,7 @@ function Projects() {
               title="Animal Disease Scraping"
               description="Automated system for scraping, processing, and analyzing veterinary articles using Selenium, Ollama (LLM), and Dash to enable multilingual epidemiological surveillance and insight extraction."
               ghLink="https://github.com/raniamaamer/Maladies-Animales"
-              demoLink="https://web-production-6b2cc4.up.railway.app/"              
+              demoLink="https://scraping-animals-diseases.up.railway.app/"              
             />
           </Col>
 
