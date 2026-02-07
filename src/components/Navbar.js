@@ -75,7 +75,7 @@ function NavBar() {
               to="/experience"
               onClick={() => updateExpanded(false)}
             >
-              <AiOutlineSolution style={{ marginBottom: "2px" }} /> Experience
+              <AiOutlineSolution style={{ marginBottom: "2px" }} /> Experiences
             </Nav.Link>
           </Nav.Item>
 
