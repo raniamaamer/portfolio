@@ -6,7 +6,6 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import {
   AiFillGithub,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
