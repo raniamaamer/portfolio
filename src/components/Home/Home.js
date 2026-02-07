@@ -9,6 +9,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 function Home() {
   return (
@@ -77,15 +78,16 @@ function Home() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              <a
+                href="mailto:raniamaaamer@gmail.com"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <AiOutlineMail />
+              </a>
+            </li>
             </ul>
           </Col>
         </Row>

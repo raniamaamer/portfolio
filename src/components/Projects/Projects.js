@@ -27,8 +27,8 @@ function Projects() {
               isBlog={false}
               title="Facial Recognition System"
               description="Development of a robust facial recognition system using PCA, LDA, and CNNs to ensure accurate and reliable identification under varying lighting, pose, and facial expressions."
-              ghLink="https://github.com/raniamaamer/facial-recognition-with-PCA-LDA-CNN"
-              demoLink="http://192.168.1.53:8501/"
+              ghLink="https://github.com/raniamaamer/Facial-Recognition"
+              demoLink="https://reconnaissance-faciale.streamlit.app/"
             />
           </Col>
 
@@ -39,7 +39,7 @@ function Projects() {
               title="Mental Journal"
               description="Development of an intelligent application that analyzes emotions in written text using natural language processing techniques to monitor changes in emotional well-being over time."
               ghLink="https://github.com/raniamaamer/Mental_Being_Journal"
-              demoLink=" https://mental-being-journal-vl5h.vercel.app/"
+              demoLink=" https://mentaljournal.vercel.app/"
             />
           </Col>
 
