@@ -14,6 +14,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { AiOutlineSolution } from "react-icons/ai";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -69,6 +70,16 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
+            <Nav.Link
+              as={Link}
+              to="/experience"
+              onClick={() => updateExpanded(false)}
+            >
+              <AiOutlineSolution style={{ marginBottom: "2px" }} /> Experience
+            </Nav.Link>
+          </Nav.Item>
+
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -81,6 +92,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
