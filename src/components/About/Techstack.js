@@ -95,7 +95,7 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Selenium} alt="selenium" />
+        <img src={Selenium} alt="Selenium" />
         <div className="tech-icons-text">Selenium</div>
       </Col>
 
