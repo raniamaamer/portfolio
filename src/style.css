@@ -557,26 +557,27 @@ button:focus {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 6px;
+  gap: 8px;
 
-  width: 110px !important;   /* cadre court */
-  height: 42px !important;
+  height: 45px !important;          /* badge plus petit */
+  min-width: 120px !important;
 
-  padding: 6px 8px !important;
-  margin: 8px !important;
+  padding: 6px 12px !important;    /* cadre plus fin */
+  margin: 10px !important;
 
-  outline: 1.3px solid rgba(200, 137, 230, 0.637) !important;
-  border-radius: 16px !important;
+  outline: 1.4px solid rgba(200, 137, 230, 0.637) !important;
+  border-radius: 18px !important;
   box-shadow: 2px 3px 3px 2px rgba(89, 4, 168, 0.137) !important;
 
-  overflow: hidden;
   color: white;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 
 .tech-icons-text {
-  font-size: 0.8rem;
   white-space: nowrap;
+  font-size: 0.9rem;
 }
 
 
@@ -592,8 +593,8 @@ button:focus {
   outline: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 .tech-icon-images {
-  height: 20px !important;
-  width: 20px !important;
+  height: 22px !important;
+  width: 22px !important;
   object-fit: contain;
   flex-shrink: 0;
 }
