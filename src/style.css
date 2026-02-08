@@ -557,13 +557,14 @@ button:focus {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+  gap: 12px;
 
-  /* Taille UNIFORME pour tous les badges */
-  width: 200px !important;
-  height: 60px !important;
+  /* Taille basée sur l'image, pas sur le texte */
+  height: 65px !important;
+  min-width: 160px !important;
 
+  padding: 10px 18px !important;
   margin: 15px !important;
-  padding: 10px 20px !important;
 
   opacity: 0.93 !important;
   outline: 1.7px solid rgba(200, 137, 230, 0.637) !important;
@@ -577,13 +578,12 @@ button:focus {
   color: white;
 }
 
-/* Alignement icône + texte */
+
 .tech-icons-text {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: white;
+  white-space: nowrap;
+  font-size: 1rem;
 }
+
 
 @media (max-width: 767px) {
   .tech-icons {
@@ -597,9 +597,10 @@ button:focus {
   outline: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 .tech-icon-images {
-  height: 26px;
-  width: 26px;
+  height: 32px !important;
+  width: 32px !important;
   object-fit: contain;
+  flex-shrink: 0;   /* empêche l'image de se réduire */
 }
 
 .quote-card-view {
