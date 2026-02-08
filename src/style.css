@@ -583,8 +583,10 @@ button:focus {
 
 @media (max-width: 767px) {
   .tech-icons {
-    margin: 10px !important;
-  }
+  display: flex !important;
+  align-items: center !important;
+}
+
 }
 
 .tech-icons:hover {
@@ -593,8 +595,9 @@ button:focus {
   outline: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 .tech-icon-images {
-  height: 1.6rem;
-  line-height: 1.6 !important;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
 
 .quote-card-view {
