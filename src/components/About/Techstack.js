@@ -6,7 +6,6 @@ import Typescript from "../../Assets/TechIcons/Typescript.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
 import ReactIcon from "../../Assets/TechIcons/React.svg";
 import NestJS from "../../Assets/TechIcons/NestJS.svg";
-import Next from "../../Assets/TechIcons/Next.svg";
 import Java from "../../Assets/TechIcons/Java.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
 import Firebase from "../../Assets/TechIcons/Firebase.svg";
@@ -52,10 +51,7 @@ function Techstack() {
         <div className="tech-icons-text">NestJS</div>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Next} alt="next" />
-        <div className="tech-icons-text">Next.Js</div>
-      </Col>
+      
       
       <Col xs={4} md={2} className="tech-icons">
         <img src={Python} alt="Python" />
