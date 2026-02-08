@@ -6,6 +6,7 @@ import Typescript from "../../Assets/TechIcons/Typescript.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
 import ReactIcon from "../../Assets/TechIcons/React.svg";
 import NestJS from "../../Assets/TechIcons/NestJS.svg";
+import Flask from "../../Assets/TechIcons/Flask.svg";
 import Java from "../../Assets/TechIcons/Java.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
 import Firebase from "../../Assets/TechIcons/Firebase.svg";
@@ -37,6 +38,16 @@ function Techstack() {
         <img src={Typescript} alt="typescript" />
         <div className="tech-icons-text">Typecript</div>
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={CSS} alt="CSS" />
+        <div className="tech-icons-text">CSS</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Tailwind} alt="tailwind" />
+        <div className="tech-icons-text">Tailwind CSS</div>
+      </Col>
       
       <Col xs={4} md={2} className="tech-icons">
         <img src={Node} alt="node" />
@@ -52,7 +63,16 @@ function Techstack() {
         <div className="tech-icons-text">NestJS</div>
       </Col>
 
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs fontSize={"24px"} />
+        <div className="tech-icons-text">Next.js</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Flask} alt="flask" />
+        <div className="tech-icons-text">Flask</div>
+      </Col>
+
       
       <Col xs={4} md={2} className="tech-icons">
         <img src={Python} alt="Python" />
@@ -65,10 +85,7 @@ function Techstack() {
       </Col>
       
 
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs fontSize={"24px"} />
-        <div className="tech-icons-text">Next.js</div>
-      </Col>
+      
       
       <Col xs={4} md={2} className="tech-icons">
         <img src={Firebase} alt="firebase" />
@@ -112,15 +129,7 @@ function Techstack() {
         <div className="tech-icons-text">Pytorch</div>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={CSS} alt="CSS" />
-        <div className="tech-icons-text">CSS</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Tailwind} alt="tailwind" />
-        <div className="tech-icons-text">Tailwind CSS</div>
-      </Col>
+      
 
       
 
