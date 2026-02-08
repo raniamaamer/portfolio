@@ -26,7 +26,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Tavascript</div>
+        <div className="tech-icons-text">Typecript</div>
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">
