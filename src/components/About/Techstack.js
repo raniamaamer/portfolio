@@ -20,7 +20,7 @@ import Selenium from "../../Assets/TechIcons/Selenium.svg";
 import Jenkins from "../../Assets/TechIcons/Jenkins.svg";
 import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
 import Terraform from "../../Assets/TechIcons/Terraform.svg";
-import Kerras from "../../Assets/TechIcons/Kerras.svg";
+import Keras from "../../Assets/TechIcons/Keras.svg";
 import TensorFlow from "../../Assets/TechIcons/TensorFlow.svg";
 import OpenCV from "../../Assets/TechIcons/OpenCV.svg";
 import Pytorch from "../../Assets/TechIcons/Pytorch.svg";
@@ -101,8 +101,8 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Kerras} alt="Kerras" />
-        <div className="tech-icons-text">Kerras</div>
+        <img src={Keras} alt="Keras" />
+        <div className="tech-icons-text">Keras</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
