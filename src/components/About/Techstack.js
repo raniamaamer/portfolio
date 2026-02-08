@@ -16,6 +16,7 @@ import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import Selenium from "../../Assets/TechIcons/Selenium.svg";
+import Jenkins from "../../Assets/TechIcons/Jenkins.svg";
 
 function Techstack() {
   return (
@@ -98,6 +99,12 @@ function Techstack() {
         <img src={Selenium} alt="Selenium" />
         <div className="tech-icons-text">Selenium</div>
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Jenkins} alt="Jenkins" />
+        <div className="tech-icons-text">Jenkins</div>
+      </Col>
+      
 
     </Row>
   );
