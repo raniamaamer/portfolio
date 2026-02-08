@@ -12,6 +12,7 @@ import Firebase from "../../Assets/TechIcons/Firebase.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
+import CSS from "../../Assets/TechIcons/CSS.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
 import Docker from "../../Assets/TechIcons/Docker.svg";
@@ -111,7 +112,10 @@ function Techstack() {
         <div className="tech-icons-text">Pytorch</div>
       </Col>
 
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={CSS} alt="CSS" />
+        <div className="tech-icons-text">CSS</div>
+      </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={Tailwind} alt="tailwind" />
