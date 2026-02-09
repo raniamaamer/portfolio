@@ -17,6 +17,7 @@ import HTML from "../../Assets/TechIcons/HTML.svg";
 import CSS from "../../Assets/TechIcons/CSS.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
+import GitHub from "../../Assets/TechIcons/GitHub.svg";
 import Docker from "../../Assets/TechIcons/Docker.svg";
 import Selenium from "../../Assets/TechIcons/Selenium.svg";
 import Jenkins from "../../Assets/TechIcons/Jenkins.svg";
@@ -136,13 +137,14 @@ function Techstack() {
       </Col>
 
       
-
-      
-
-      
       <Col xs={4} md={2} className="tech-icons">
         <img src={Git} alt="git" />
         <div className="tech-icons-text">Git</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={GitHub} alt="GitHub" />
+        <div className="tech-icons-text">GitHub</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
