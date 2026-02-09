@@ -13,6 +13,7 @@ import Firebase from "../../Assets/TechIcons/Firebase.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
+import HTML from "../../Assets/TechIcons/HTML.svg";
 import CSS from "../../Assets/TechIcons/CSS.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
@@ -37,6 +38,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={Typescript} alt="typescript" />
         <div className="tech-icons-text">Typecript</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={HTML} alt="HTML" />
+        <div className="tech-icons-text">HTML</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
