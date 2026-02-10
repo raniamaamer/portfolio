@@ -553,47 +553,51 @@ button:focus {
   color: white !important;
 }
 
+/* container mta3 les technologies */
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+/* cadre mta3 kol technology */
 .tech-icons {
-  display: flex !important;
-  align-items: center !important;
-  gap: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 
-  height: 42px !important;
-  width: fit-content !important;
+  padding: 6px 12px;
+  margin: 8px;
 
-  /* ✅ padding corrigé (clé du problème) */
-  padding: 6px 10px !important;
-  margin: 8px !important;
-
-  outline: 1.4px solid rgba(200, 137, 230, 0.637) !important;
-  border-radius: 18px !important;
-  box-shadow: 2px 3px 3px 2px rgba(89, 4, 168, 0.137) !important;
+  border-radius: 18px;
+  outline: 1.4px solid rgba(200, 137, 230, 0.637);
+  box-shadow: 2px 3px 3px 2px rgba(89, 4, 168, 0.137);
 
   color: white;
-}
+  width: auto;
 
-
-.tech-icons-text {
-  white-space: nowrap;
-  font-size: 0.9rem;
-}
-
-@media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
-  }
+  transition: 0.2s ease-in-out;
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  outline: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  transform: scale(1.05);
+  outline: 2.2px solid rgba(197, 115, 230, 0.883);
 }
-.tech-icon-images {
-  width: 26px !important;
-  height: 26px !important;
+
+/* logo (png, svg, react icon) */
+.tech-icons img,
+.tech-icons svg {
+  width: 26px;
+  height: 26px;
   object-fit: contain;
   display: block;
+}
+
+/* texte */
+.tech-icons-text {
+  white-space: nowrap;
+  font-size: 0.9rem;
 }
 
 

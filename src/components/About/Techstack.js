@@ -1,6 +1,6 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
 import { SiNextdotjs } from "react-icons/si";
+
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
 import Typescript from "../../Assets/TechIcons/Typescript.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
@@ -28,152 +28,50 @@ import TensorFlow from "../../Assets/TechIcons/TensorFlow.svg";
 import OpenCV from "../../Assets/TechIcons/OpenCV.svg";
 import Pytorch from "../../Assets/TechIcons/Pytorch.svg";
 
+const techs = [
+  { img: Javascript, name: "Javascript" },
+  { img: Typescript, name: "Typescript" },
+  { img: HTML, name: "HTML" },
+  { img: CSS, name: "CSS" },
+  { img: Tailwind, name: "Tailwind CSS" },
+  { img: Node, name: "Node.Js" },
+  { img: ReactIcon, name: "React.Js" },
+  { img: NestJS, name: "NestJS" },
+  { icon: <SiNextdotjs />, name: "Next.js" },
+  { img: Flask, name: "Flask" },
+  { img: Python, name: "Python" },
+  { img: Java, name: "Java" },
+  { img: Firebase, name: "Firebase" },
+  { img: Postman, name: "Postman" },
+  { img: Mongo, name: "Mongo DB" },
+  { img: SQL, name: "Postgresql" },
+  { img: OpenCV, name: "OpenCV" },
+  { img: Keras, name: "Keras" },
+  { img: TensorFlow, name: "TensorFlow" },
+  { img: Pytorch, name: "Pytorch" },
+  { img: Git, name: "Git" },
+  { img: GitHub, name: "GitHub" },
+  { img: Docker, name: "Docker" },
+  { img: Kubernates, name: "Kubernetes" },
+  { img: Selenium, name: "Selenium" },
+  { img: Jenkins, name: "Jenkins" },
+  { img: Terraform, name: "Terraform" },
+];
+
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Javascript} alt="javascript" />
-        <div className="tech-icons-text">Javascript</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Typecript</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={HTML} alt="HTML" />
-        <div className="tech-icons-text">HTML</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={CSS} alt="CSS" />
-        <div className="tech-icons-text">CSS</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Tailwind} alt="tailwind" />
-        <div className="tech-icons-text">Tailwind CSS</div>
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Node} alt="node" />
-        <div className="tech-icons-text">Node.Js</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={ReactIcon} alt="react" />
-        <div className="tech-icons-text">React.Js</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={NestJS} alt="nestjs" />
-        <div className="tech-icons-text">NestJS</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs fontSize={"24px"} />
-        <div className="tech-icons-text">Next.js</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Flask} alt="flask" />
-        <div className="tech-icons-text">Flask</div>
-      </Col>
-
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Python} alt="Python" />
-        <div className="tech-icons-text">Python</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} alt="haskell" />
-        <div className="tech-icons-text">Java</div>
-      </Col>
-      
-
-      
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Firebase} alt="firebase" />
-        <div className="tech-icons-text">Firebase</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Postman} alt="Postman" />
-        <div className="tech-icons-text">Postman</div>
-      </Col>
-
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Mongo} alt="mongoDb" />
-        <div className="tech-icons-text">Mongo DB</div>
-      </Col>
-      
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={SQL} alt="SQL" />
-        <div className="tech-icons-text">Postgresql</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={OpenCV} alt="OpenCV" />
-        <div className="tech-icons-text">OpenCV</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Keras} alt="Keras" />
-        <div className="tech-icons-text">Keras</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={TensorFlow} alt="TensorFlow" />
-        <div className="tech-icons-text">TensorFlow</div>
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Pytorch} alt="Pytorch" />
-        <div className="tech-icons-text">Pytorch</div>
-      </Col>
-
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Git} alt="git" />
-        <div className="tech-icons-text">Git</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={GitHub} alt="GitHub" />
-        <div className="tech-icons-text">GitHub</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Docker} alt="docker" />
-        <div className="tech-icons-text">Docker</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Kubernates} alt="kubernetes" />
-        <div className="tech-icons-text">Kubernetes</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Selenium} alt="Selenium" />
-        <div className="tech-icons-text">Selenium</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Jenkins} alt="Jenkins" />
-        <div className="tech-icons-text">Jenkins</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Terraform} alt="Terraform" />
-        <div className="tech-icons-text">Terraform</div>
-      </Col>
-      
-
-    </Row>
+    <div className="tech-container">
+      {techs.map((tech, index) => (
+        <div className="tech-icons" key={index}>
+          {tech.img ? (
+            <img src={tech.img} alt={tech.name} />
+          ) : (
+            tech.icon
+          )}
+          <div className="tech-icons-text">{tech.name}</div>
+        </div>
+      ))}
+    </div>
   );
 }
 
