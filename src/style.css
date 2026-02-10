@@ -556,7 +556,7 @@ button:focus {
 .tech-icons {
   display: flex !important;
   align-items: center !important;
-  gap: 8px;
+  gap: 6px;
 
   height: 42px !important;
   width: fit-content !important;
@@ -590,10 +590,16 @@ button:focus {
   outline: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 .tech-icon-images {
-  height: 22px !important;
-  width: 22px !important;
+  width: 26px !important;
+  height: 26px !important;
   object-fit: contain;
+  display: block;
 }
+
+.icon-tight {
+  transform: scale(1.35);
+}
+
 
 .quote-card-view {
   border: none !important;
