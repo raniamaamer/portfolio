@@ -29,10 +29,10 @@ import OpenCV from "../../Assets/TechIcons/OpenCV.svg";
 import Pytorch from "../../Assets/TechIcons/Pytorch.svg";
 
 const techs = [
-  { img: Javascript, name: "Javascript" },
-  { img: Typescript, name: "Typescript" },
   { img: HTML, name: "HTML" },
   { img: CSS, name: "CSS" },
+  { img: Javascript, name: "Javascript" },
+  { img: Typescript, name: "Typescript" },
   { img: Tailwind, name: "Tailwind CSS" },
   { img: Node, name: "Node.Js" },
   { img: ReactIcon, name: "React.Js" },
