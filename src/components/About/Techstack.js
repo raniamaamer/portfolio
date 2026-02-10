@@ -11,7 +11,9 @@ import Java from "../../Assets/TechIcons/Java.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
 import Firebase from "../../Assets/TechIcons/Firebase.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
+import Oracle from "../../Assets/TechIcons/Oracle.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";
+import MySQL from "../../Assets/TechIcons/MySQL.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import HTML from "../../Assets/TechIcons/HTML.svg";
 import CSS from "../../Assets/TechIcons/CSS.svg";
@@ -43,7 +45,9 @@ const techs = [
   { img: Java, name: "Java" },
   { img: Firebase, name: "Firebase" },
   { img: Postman, name: "Postman" },
+  {img : Oracle , name: "Oracle"},
   { img: Mongo, name: "Mongo DB" },
+  { img: MySQL, name: "MySQL" },
   { img: SQL, name: "Postgresql" },
   { img: OpenCV, name: "OpenCV" },
   { img: Keras, name: "Keras" },
