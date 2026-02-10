@@ -1,6 +1,7 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import { SiNextdotjs } from "react-icons/si";
+
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
 import Typescript from "../../Assets/TechIcons/Typescript.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
@@ -29,150 +30,42 @@ import OpenCV from "../../Assets/TechIcons/OpenCV.svg";
 import Pytorch from "../../Assets/TechIcons/Pytorch.svg";
 
 function Techstack() {
+  const Badge = ({ icon, text, tight }) => (
+    <div className="tech-badge">
+      {icon}
+      <span>{text}</span>
+    </div>
+  );
+
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Javascript} alt="javascript" />
-        <div className="tech-icons-text">Javascript</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Typecript</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={HTML} alt="HTML" />
-        <div className="tech-icons-text">HTML</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={CSS} alt="CSS" />
-        <div className="tech-icons-text">CSS</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Tailwind} alt="tailwind" />
-        <div className="tech-icons-text">Tailwind CSS</div>
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Node} alt="node" />
-        <div className="tech-icons-text">Node.Js</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={ReactIcon} alt="react" />
-        <div className="tech-icons-text">React.Js</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={NestJS} alt="nestjs" />
-        <div className="tech-icons-text">NestJS</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs fontSize={"24px"} />
-        <div className="tech-icons-text">Next.js</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Flask} alt="flask" />
-        <div className="tech-icons-text">Flask</div>
-      </Col>
-
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Python} alt="Python" />
-        <div className="tech-icons-text">Python</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} alt="haskell" />
-        <div className="tech-icons-text">Java</div>
-      </Col>
-      
-
-      
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Firebase} alt="firebase" />
-        <div className="tech-icons-text">Firebase</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Postman} alt="Postman" />
-        <div className="tech-icons-text">Postman</div>
-      </Col>
-
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Mongo} alt="mongoDb" />
-        <div className="tech-icons-text">Mongo DB</div>
-      </Col>
-      
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={SQL} alt="SQL" />
-        <div className="tech-icons-text">Postgresql</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={OpenCV} alt="OpenCV" />
-        <div className="tech-icons-text">OpenCV</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Keras} alt="Keras" />
-        <div className="tech-icons-text">Keras</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={TensorFlow} alt="TensorFlow" />
-        <div className="tech-icons-text">TensorFlow</div>
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Pytorch} alt="Pytorch" />
-        <div className="tech-icons-text">Pytorch</div>
-      </Col>
-
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Git} alt="git" />
-        <div className="tech-icons-text">Git</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={GitHub} alt="GitHub" />
-        <div className="tech-icons-text">GitHub</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Docker} alt="docker" />
-        <div className="tech-icons-text">Docker</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Kubernates} alt="kubernetes" />
-        <div className="tech-icons-text">Kubernetes</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Selenium} alt="Selenium" />
-        <div className="tech-icons-text">Selenium</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Jenkins} alt="Jenkins" />
-        <div className="tech-icons-text">Jenkins</div>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Terraform} alt="Terraform" />
-        <div className="tech-icons-text">Terraform</div>
-      </Col>
-      
-
+    <Row className="tech-row">
+      <Badge icon={<img src={Javascript} className="tech-icon" />} text="Javascript" />
+      <Badge icon={<img src={Typescript} className="tech-icon" />} text="Typescript" />
+      <Badge icon={<img src={HTML} className="tech-icon" />} text="HTML" />
+      <Badge icon={<img src={CSS} className="tech-icon" />} text="CSS" />
+      <Badge icon={<img src={Tailwind} className="tech-icon" />} text="Tailwind CSS" />
+      <Badge icon={<img src={Node} className="tech-icon" />} text="Node.js" />
+      <Badge icon={<img src={ReactIcon} className="tech-icon" />} text="React.js" />
+      <Badge icon={<img src={NestJS} className="tech-icon" />} text="NestJS" />
+      <Badge icon={<SiNextdotjs className="tech-icon" />} text="Next.js" />
+      <Badge icon={<img src={Flask} className="tech-icon" />} text="Flask" />
+      <Badge icon={<img src={Python} className="tech-icon" />} text="Python" />
+      <Badge icon={<img src={Java} className="tech-icon" />} text="Java" />
+      <Badge icon={<img src={Firebase} className="tech-icon" />} text="Firebase" />
+      <Badge icon={<img src={Postman} className="tech-icon" />} text="Postman" />
+      <Badge icon={<img src={Mongo} className="tech-icon" />} text="Mongo DB" />
+      <Badge icon={<img src={SQL} className="tech-icon" />} text="PostgreSQL" />
+      <Badge icon={<img src={OpenCV} className="tech-icon" />} text="OpenCV" />
+      <Badge icon={<img src={Keras} className="tech-icon" />} text="Keras" />
+      <Badge icon={<img src={TensorFlow} className="tech-icon" />} text="TensorFlow" />
+      <Badge icon={<img src={Pytorch} className="tech-icon" />} text="PyTorch" />
+      <Badge icon={<img src={Git} className="tech-icon" />} text="Git" />
+      <Badge icon={<img src={GitHub} className="tech-icon" />} text="GitHub" />
+      <Badge icon={<img src={Docker} className="tech-icon" />} text="Docker" />
+      <Badge icon={<img src={Kubernates} className="tech-icon" />} text="Kubernetes" />
+      <Badge icon={<img src={Selenium} className="tech-icon icon-tight" />} text="Selenium" />
+      <Badge icon={<img src={Jenkins} className="tech-icon icon-tight" />} text="Jenkins" />
+      <Badge icon={<img src={Terraform} className="tech-icon icon-tight" />} text="Terraform" />
     </Row>
   );
 }
