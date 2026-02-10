@@ -1,5 +1,5 @@
 import React from "react";
-import { Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import { SiNextdotjs } from "react-icons/si";
 
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
@@ -30,42 +30,56 @@ import OpenCV from "../../Assets/TechIcons/OpenCV.svg";
 import Pytorch from "../../Assets/TechIcons/Pytorch.svg";
 
 function Techstack() {
-  const Badge = ({ icon, text, tight }) => (
-    <div className="tech-badge">
-      {icon}
-      <span>{text}</span>
-    </div>
-  );
+  const techs = [
+    { icon: Javascript, label: "Javascript" },
+    { icon: Typescript, label: "Typescript" },
+    { icon: HTML, label: "HTML" },
+    { icon: CSS, label: "CSS" },
+    { icon: Tailwind, label: "Tailwind CSS" },
+    { icon: Node, label: "Node.js" },
+    { icon: ReactIcon, label: "React.js" },
+    { icon: NestJS, label: "NestJS" },
+    { icon: "next", label: "Next.js" },
+    { icon: Flask, label: "Flask" },
+    { icon: Python, label: "Python" },
+    { icon: Java, label: "Java" },
+    { icon: Firebase, label: "Firebase" },
+    { icon: Postman, label: "Postman" },
+    { icon: Mongo, label: "Mongo DB" },
+    { icon: SQL, label: "PostgreSQL" },
+    { icon: OpenCV, label: "OpenCV" },
+    { icon: Keras, label: "Keras" },
+    { icon: TensorFlow, label: "TensorFlow" },
+    { icon: Pytorch, label: "PyTorch" },
+    { icon: Git, label: "Git" },
+    { icon: GitHub, label: "GitHub" },
+    { icon: Docker, label: "Docker" },
+    { icon: Kubernates, label: "Kubernetes" },
+    { icon: Selenium, label: "Selenium", tight: true },
+    { icon: Jenkins, label: "Jenkins", tight: true },
+    { icon: Terraform, label: "Terraform", tight: true },
+  ];
 
   return (
-    <Row className="tech-row">
-      <Badge icon={<img src={Javascript} className="tech-icon" />} text="Javascript" />
-      <Badge icon={<img src={Typescript} className="tech-icon" />} text="Typescript" />
-      <Badge icon={<img src={HTML} className="tech-icon" />} text="HTML" />
-      <Badge icon={<img src={CSS} className="tech-icon" />} text="CSS" />
-      <Badge icon={<img src={Tailwind} className="tech-icon" />} text="Tailwind CSS" />
-      <Badge icon={<img src={Node} className="tech-icon" />} text="Node.js" />
-      <Badge icon={<img src={ReactIcon} className="tech-icon" />} text="React.js" />
-      <Badge icon={<img src={NestJS} className="tech-icon" />} text="NestJS" />
-      <Badge icon={<SiNextdotjs className="tech-icon" />} text="Next.js" />
-      <Badge icon={<img src={Flask} className="tech-icon" />} text="Flask" />
-      <Badge icon={<img src={Python} className="tech-icon" />} text="Python" />
-      <Badge icon={<img src={Java} className="tech-icon" />} text="Java" />
-      <Badge icon={<img src={Firebase} className="tech-icon" />} text="Firebase" />
-      <Badge icon={<img src={Postman} className="tech-icon" />} text="Postman" />
-      <Badge icon={<img src={Mongo} className="tech-icon" />} text="Mongo DB" />
-      <Badge icon={<img src={SQL} className="tech-icon" />} text="PostgreSQL" />
-      <Badge icon={<img src={OpenCV} className="tech-icon" />} text="OpenCV" />
-      <Badge icon={<img src={Keras} className="tech-icon" />} text="Keras" />
-      <Badge icon={<img src={TensorFlow} className="tech-icon" />} text="TensorFlow" />
-      <Badge icon={<img src={Pytorch} className="tech-icon" />} text="PyTorch" />
-      <Badge icon={<img src={Git} className="tech-icon" />} text="Git" />
-      <Badge icon={<img src={GitHub} className="tech-icon" />} text="GitHub" />
-      <Badge icon={<img src={Docker} className="tech-icon" />} text="Docker" />
-      <Badge icon={<img src={Kubernates} className="tech-icon" />} text="Kubernetes" />
-      <Badge icon={<img src={Selenium} className="tech-icon icon-tight" />} text="Selenium" />
-      <Badge icon={<img src={Jenkins} className="tech-icon icon-tight" />} text="Jenkins" />
-      <Badge icon={<img src={Terraform} className="tech-icon icon-tight" />} text="Terraform" />
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {techs.map(({ icon, label, tight }, index) => (
+        <Col xs={4} md={2} key={index} className="tech-icons">
+          
+          {icon === "next" && (
+            <SiNextdotjs className="tech-icon-images" />
+          )}
+
+          {icon !== "next" && (
+            <img
+              src={icon}
+              alt={`${label} logo`}
+              className={`tech-icon-images ${tight ? "icon-tight" : ""}`}
+            />
+          )}
+
+          <div className="tech-icons-text">{label}</div>
+        </Col>
+      ))}
     </Row>
   );
 }

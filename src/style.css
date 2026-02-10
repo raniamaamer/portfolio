@@ -554,43 +554,43 @@ button:focus {
 }
 
 .tech-icons {
-  display: inline-flex !important;
+  display: flex !important;
   align-items: center !important;
-  gap: 8px;
+  gap: 6px;
 
-  padding: 6px 12px !important;
+  height: 42px !important;
+  width: fit-content !important;
+
+  padding: 6px 10px !important;
   margin: 8px !important;
 
-  border: 1.6px solid rgba(200, 137, 230, 0.637) !important;
-  border-radius: 20px !important;
+  outline: 1.4px solid rgba(200, 137, 230, 0.637) !important;
+  border-radius: 18px !important;
   box-shadow: 2px 3px 3px 2px rgba(89, 4, 168, 0.137) !important;
 
   color: white;
-  width: auto !important;
-  height: auto !important;
 }
 
 .tech-icons-text {
   white-space: nowrap;
-  font-size: 0.92rem;
-  line-height: 1;
-}
-
-.tech-icon-images {
-  width: 24px !important;
-  height: 24px !important;
-  object-fit: contain;
-  flex-shrink: 0;
-}
-
-/* Corrige les SVG avec vide (Selenium, Jenkins, Terraform) */
-.icon-tight {
-  transform: scale(1.35);
+  font-size: 0.9rem;
 }
 
 .tech-icons:hover {
-  transform: scale(1.06);
-  border: 2px solid rgba(197, 115, 230, 0.883) !important;
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  outline: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+
+.tech-icon-images {
+  width: 26px !important;
+  height: 26px !important;
+  object-fit: contain;
+  display: block;
+}
+
+.icon-tight {
+  transform: scale(1.35);
 }
 
 @media (max-width: 767px) {
