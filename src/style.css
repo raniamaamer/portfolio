@@ -561,6 +561,7 @@ button:focus {
   height: 42px !important;
   width: fit-content !important;
 
+  /* ✅ padding corrigé (clé du problème) */
   padding: 6px 10px !important;
   margin: 8px !important;
 
@@ -571,9 +572,16 @@ button:focus {
   color: white;
 }
 
+
 .tech-icons-text {
   white-space: nowrap;
   font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
 }
 
 .tech-icons:hover {
@@ -581,22 +589,11 @@ button:focus {
   overflow: hidden !important;
   outline: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
-
 .tech-icon-images {
   width: 26px !important;
   height: 26px !important;
   object-fit: contain;
   display: block;
-}
-
-.icon-tight {
-  transform: scale(1.35);
-}
-
-@media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
-  }
 }
 
 
