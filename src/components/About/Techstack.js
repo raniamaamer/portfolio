@@ -7,10 +7,7 @@ import Node from "../../Assets/TechIcons/Node.svg";
 import ReactIcon from "../../Assets/TechIcons/React.svg";
 import NestJS from "../../Assets/TechIcons/NestJS.svg";
 import Flask from "../../Assets/TechIcons/Flask.svg";
-<<<<<<< HEAD
 import Django from "../../Assets/TechIcons/Django.svg";
-=======
->>>>>>> d67beab4e1ec225a6bfe005cd565a1c84a47027a
 import Java from "../../Assets/TechIcons/Java.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
 import Firebase from "../../Assets/TechIcons/Firebase.svg";
@@ -25,10 +22,7 @@ import GitHub from "../../Assets/TechIcons/GitHub.svg";
 import Docker from "../../Assets/TechIcons/Docker.svg";
 import Selenium from "../../Assets/TechIcons/Selenium.svg";
 import Jenkins from "../../Assets/TechIcons/Jenkins.svg";
-<<<<<<< HEAD
 import SonarQube from "../../Assets/TechIcons/SonarQube.svg";
-=======
->>>>>>> d67beab4e1ec225a6bfe005cd565a1c84a47027a
 import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
 import Terraform from "../../Assets/TechIcons/Terraform.svg";
 import Keras from "../../Assets/TechIcons/Keras.svg";
@@ -47,15 +41,12 @@ const techs = [
   { img: NestJS, name: "NestJS" },
   { icon: <SiNextdotjs />, name: "Next.js" },
   { img: Flask, name: "Flask" },
-<<<<<<< HEAD
   { img: Django, name: "Django" },
-=======
->>>>>>> d67beab4e1ec225a6bfe005cd565a1c84a47027a
   { img: Python, name: "Python" },
   { img: Java, name: "Java" },
   { img: Firebase, name: "Firebase" },
   { img: Postman, name: "Postman" },
-  {img : Oracle , name: "Oracle"},
+  { img: Oracle, name: "Oracle" },
   { img: Mongo, name: "Mongo DB" },
   { img: OpenCV, name: "OpenCV" },
   { img: Keras, name: "Keras" },
@@ -67,10 +58,7 @@ const techs = [
   { img: Kubernates, name: "Kubernetes" },
   { img: Selenium, name: "Selenium" },
   { img: Jenkins, name: "Jenkins" },
-<<<<<<< HEAD
   { img: SonarQube, name: "SonarQube" },
-=======
->>>>>>> d67beab4e1ec225a6bfe005cd565a1c84a47027a
   { img: Terraform, name: "Terraform" },
 ];
 
