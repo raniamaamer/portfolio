@@ -50,7 +50,7 @@ function Projects() {
               title="Animal Disease Scraping"
               description="Automated system for scraping, processing, and analyzing veterinary articles using Selenium, Ollama (LLM), and Dash to enable multilingual epidemiological surveillance and insight extraction."
               ghLink="https://github.com/raniamaamer/Maladies-Animales"
-              demoLink="https://scraping-animals-diseases.up.railway.app/"              
+              demoLink="https://maladies-animales.onrender.com"              
             />
           </Col>
 
@@ -72,6 +72,18 @@ function Projects() {
               description="Development of a web-based project management application allowing users to create, track, and delete projects and their tasks, with real-time data storage on Firebase."
               ghLink="https://github.com/raniamaamer/project-manager-app-with-react"
               demoLink="https://gestion-projets-app.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={courses}
+              isBlog={false}
+              title="Courses App"
+              description="Web application for managing educational courses, enabling users to add and organize courses 
+              through a simple, intuitive, and user-friendly interface."
+              ghLink="https://github.com/raniamaamer/CoursesApp"
+              demoLink="https://courses-app-web.vercel.app/courses-list"
             />
           </Col>
 
