@@ -42,6 +42,42 @@ function Experience() {
             </Card>
           </Col>
         </Row>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={10}>
+            <Card className="project-card-view">
+              <Card.Body>
+                <Card.Title>
+                  PFE Intern — Data & BI Engineer — <span className="purple">DXC Technology Tunisia</span>
+                </Card.Title>
+
+                <Card.Subtitle className="mb-3 purple">
+                    Feb 2026 – Jun 2026 | Ariana, Tunisia
+                </Card.Subtitle>
+
+
+                <Card.Text style={{ textAlign: "justify" }}>
+                  • Designed and developed a decisional <strong>Data Intelligence Dashboard</strong> for a multilingual contact center (15 accounts, 150 queues, 500K+ contacts).
+                  <br />
+                  • Automated an <strong>ETL pipeline (Python/Django)</strong> from Amazon Connect to PostgreSQL, computing contractual KPIs (SLA, abandon rate, AHT, ASA), validated at 100% against DXC's reference data.
+                  <br />
+                  • Built a <strong>REST API</strong> (Django REST Framework) and a real-time <strong>React.js dashboard</strong> (6 interfaces: Overview, Accounts, Queues, Hourly Trends, SLA Config, Live Metrics).
+                  <br />
+                  • Designed an ensemble <strong>ML forecasting module</strong> (XGBoost + Prophet) to predict contact volumes at J+7/J+30, with 80% confidence intervals (R² up to 0.99).
+                  <br />
+                  • Set up a full <strong>DevOps infrastructure</strong>: Docker Compose containerization, CI/CD pipeline with Jenkins/SonarQube (test coverage: 98.5%).
+                </Card.Text>
+
+                <Card.Text>
+                  <strong>Technologies:</strong> Python, Django, React.js, PostgreSQL, Docker, Jenkins, SonarQube, XGBoost, Prophet
+                </Card.Text>
+                <Card.Text>
+                  <strong>Methodology:</strong> CRISP-DM / Scrum
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
