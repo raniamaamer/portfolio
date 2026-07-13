@@ -8,6 +8,7 @@ import scraping from "../../Assets/Projects/scraping.png";
 import project from "../../Assets/Projects/project.png";
 import mood from "../../Assets/Projects/mood.png";
 import facialRecognition from "../../Assets/Projects/facialRecognition.png";
+import dxcDashboard from "../../Assets/Projects/dxcDashboard.png";
 
 function Projects() {
   return (
@@ -94,7 +95,7 @@ function Projects() {
               title="Système Décisionnel de Prédiction et de Monitoring"
               description="Tableau de bord décisionnel pour Contact Center (DXC Technology) : pipeline ETL Amazon Connect vers PostgreSQL, API REST Django, dashboard React temps réel (SLA, AHT, ASA), et module de prévision ML (XGBoost + Prophet) pour anticiper les volumes de contacts à J+7 et J+30."
               ghLink="https://github.com/raniamaamer/Rania-Maamer-DXC"
-              demoLink=""
+              demoLink="https://rania-maamer-lgec3238u-raniamaamers-projects.vercel.app"
             />
           </Col>
         </Row>
