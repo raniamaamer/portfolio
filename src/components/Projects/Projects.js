@@ -95,7 +95,7 @@ function Projects() {
               title="Système Décisionnel de Prédiction et de Monitoring"
               description="Tableau de bord décisionnel pour Contact Center (DXC Technology) : pipeline ETL Amazon Connect vers PostgreSQL, API REST Django, dashboard React temps réel (SLA, AHT, ASA), et module de prévision ML (XGBoost + Prophet) pour anticiper les volumes de contacts à J+7 et J+30."
               ghLink="https://github.com/raniamaamer/Rania-Maamer-DXC"
-              demoLink="https://rania-maamer-dxc.vercel.app/?v=2"
+              demoLink="https://rania-maamer-dxc.vercel.app/"
             />
           </Col>
         </Row>
