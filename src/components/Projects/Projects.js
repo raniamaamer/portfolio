@@ -89,13 +89,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={courses}
+              imgPath={dxcDashboard}
               isBlog={false}
-              title="Courses App"
-              description="Web application for managing educational courses, enabling users to add and organize courses 
-              through a simple, intuitive, and user-friendly interface."
-              ghLink="https://github.com/raniamaamer/CoursesApp"
-              demoLink="https://courses-app-web.vercel.app/courses-list"
+              title="Système Décisionnel de Prédiction et de Monitoring"
+              description="Tableau de bord décisionnel pour Contact Center (DXC Technology) : pipeline ETL Amazon Connect vers PostgreSQL, API REST Django, dashboard React temps réel (SLA, AHT, ASA), et module de prévision ML (XGBoost + Prophet) pour anticiper les volumes de contacts à J+7 et J+30."
+              ghLink="https://github.com/raniamaamer/Rania-Maamer-DXC"
+              demoLink=""
             />
           </Col>
         </Row>
