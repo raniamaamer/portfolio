@@ -12,6 +12,7 @@ import Java from "../../Assets/TechIcons/Java.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
 import Firebase from "../../Assets/TechIcons/Firebase.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
+import Swagger from "../../Assets/TechIcons/Swagger.svg";
 import Oracle from "../../Assets/TechIcons/Oracle.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import PostgreSQL from "../../Assets/TechIcons/PostgreSQL.svg";
@@ -47,9 +48,10 @@ const techs = [
   { img: Java, name: "Java" },
   { img: Firebase, name: "Firebase" },
   { img: PostgreSQL, name: "PostgreSQL" },
-  { img: Postman, name: "Postman" },
   { img: Oracle, name: "Oracle" },
   { img: Mongo, name: "Mongo DB" },
+  { img: Postman, name: "Postman" },
+  { img: Swagger, name: "Swagger" },
   { img: OpenCV, name: "OpenCV" },
   { img: Keras, name: "Keras" },
   { img: TensorFlow, name: "TensorFlow" },
