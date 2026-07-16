@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.resume-section {
+  position: relative;
+}
+
+.resume-section canvas {
+  z-index: 0 !important;
+  pointer-events: none;
+}
+
+.resume-section .btn,
+.resume-section button {
+  position: relative;
+  z-index: 10;
+}
