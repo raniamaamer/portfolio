@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Rania_Maamer_CV.pdf";
+import pdfFR from "../../Assets/../Assets/Rania_Maamer_CV.pdf";
+import pdfEN from "../../Assets/../Assets/Rania_Maamer_CV_EN.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -10,15 +11,37 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [lang, setLang] = useState("fr"); // "fr" ou "en"
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
 
+  const pdf = lang === "fr" ? pdfFR : pdfEN;
+
   return (
     <div>
       <Container fluid className="resume-section">
         <Particle />
+
+        {/* Boutons de langue */}
+        <Row style={{ justifyContent: "center", marginBottom: "15px" }}>
+          <Button
+            variant={lang === "fr" ? "primary" : "outline-primary"}
+            onClick={() => setLang("fr")}
+            style={{ maxWidth: "100px", marginRight: "10px" }}
+          >
+            FR
+          </Button>
+          <Button
+            variant={lang === "en" ? "primary" : "outline-primary"}
+            onClick={() => setLang("en")}
+            style={{ maxWidth: "100px" }}
+          >
+            EN
+          </Button>
+        </Row>
+
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
