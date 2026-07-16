@@ -19,6 +19,8 @@ function ResumeNew() {
 
   const pdf = lang === "fr" ? pdfFR : pdfEN;
 
+  console.log("lang:", lang, "pdf:", pdf);
+
   return (
     <div>
       <Container fluid className="resume-section">
